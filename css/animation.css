@@ -22,7 +22,7 @@
     to {transform: scale(1);}
   }
   
-  /*Hohoho do lado esquerdo*/
+  /* Hohoho do lado esquerdo
   @-webkit-keyframes txtHohohoLeft {
     to {-webkit-transform: scale(1.5);}
   }
@@ -142,4 +142,4 @@
         height: 60px;
         width: 30px;
     }
-  }
+  } 
