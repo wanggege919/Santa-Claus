@@ -1,0 +1,145 @@
+/**************
+  ** Animações **
+  ***************/
+  
+  /*FadeIn e fadeOut para textos Hohoho*/
+  @keyframes txtHohoho {
+    from {opacity: .2}
+    to {opacity: 1}
+  }
+  
+  /*Texto Ho do meio em ambos os lados*/
+  @-webkit-keyframes txtHohohoMiddle {
+    from {-webkit-transform: scale(1.5);}
+    to {-webkit-transform: scale(1);}
+  }
+  @-moz-keyframes txtHohohoMiddle {
+    from {-moz-transform: scale(1.5);}
+    to {-moz-transform: scale(1);}
+  }
+  @keyframes txtHohohoMiddle {
+    from {transform: scale(1.5);}
+    to {transform: scale(1);}
+  }
+  
+  /*Hohoho do lado esquerdo*/
+  @-webkit-keyframes txtHohohoLeft {
+    to {-webkit-transform: scale(1.5);}
+  }
+  @-moz-keyframes txtHohohoLeft {
+    to {-moz-transform: scale(1.5);}
+  }
+  @keyframes txtHohohoLeft {
+    to {transform: scale(1.5);}
+  }
+  
+  /*Hohoho do lado direito*/
+  @-webkit-keyframes txtHohohoRight {
+    to {-webkit-transform: scale(1.5);}
+  }
+  @-moz-keyframes txtHohohoRight {
+    to {-moz-transform: scale(1.5);}
+  }
+  @keyframes txtHohohoRight {
+    to {transform: scale(1.5);}
+  }
+  
+  /*Movimenta barba*/
+  @-webkit-keyframes animaBarba {
+    to {-webkit-transform: rotate(-10deg);}
+  }
+  @-moz-keyframes animaBarba {
+    to {-moz-transform: rotate(-10deg);}
+  }
+  @keyframes animaBarba {
+    to {transform: rotate(-10deg);}
+  }
+  
+  /*Hoho no movimento da boca*/
+  @-webkit-keyframes hoho {
+    0% {
+        background-color: #ecf0f1;
+        box-shadow: 0px 20px 0 0 #111;
+        height: 40px;
+        width: 60px;
+    }
+  
+    60%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 60px;
+        width: 30px;
+    }
+  
+    80%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 50px;
+        width: 40px;
+    }
+  
+    100%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 60px;
+        width: 30px;
+    }
+  }
+  @-moz-keyframes hoho {
+    0% {
+        background-color: #ecf0f1;
+        box-shadow: 0px 20px 0 0 #111;
+        height: 40px;
+        width: 60px;
+    }
+  
+    60%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 60px;
+        width: 30px;
+    }
+  
+    80%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 50px;
+        width: 40px;
+    }
+  
+    100%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 60px;
+        width: 30px;
+    }
+  }
+  @keyframes hoho {
+    0% {
+        background-color: #ecf0f1;
+        box-shadow: 0px 20px 0 0 #111;
+        height: 40px;
+        width: 60px;
+    }
+  
+    60%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 60px;
+        width: 30px;
+    }
+  
+    80%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 50px;
+        width: 40px;
+    }
+  
+    100%  {
+        background-color: #ecf0f1;
+        box-shadow: 0px 60px 0 0 #111;
+        height: 60px;
+        width: 30px;
+    }
+  }
