@@ -9,13 +9,13 @@ body{
     flex-direction: column;
 }
 .code-wrapper{
-   flex:1;
-   height: 50%;
+   flex:0.3;
+   height: 30%;
    padding: 10px;
 }
 .preview-wrapper{
-    flex: 1;
-    height: 50%;
+    flex: 0.7;
+    height: 70%;
 }
 #code{
     overflow: hidden;
